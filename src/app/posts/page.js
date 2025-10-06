@@ -81,3 +81,6 @@ export default async function HomePage() {
     </div>
   );
 }
+
+// forcing server-side rendering to avoid prerender errors
+export const dynamic = "force-dynamic";
