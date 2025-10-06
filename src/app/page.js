@@ -45,3 +45,6 @@ export default async function HomePage() {
     </div>
   );
 }
+
+export const dynamic = "force-dynamic";
+// forcing server-side rendering, to always get fresh data
