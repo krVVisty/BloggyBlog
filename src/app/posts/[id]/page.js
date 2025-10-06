@@ -17,3 +17,6 @@ export default async function PostPage({ params }) {
 
   return <PostComponent post={post} comments={comments} />;
 }
+
+export const dynamic = "force-dynamic";
+// forcing server-side rendering, to always get fresh data
